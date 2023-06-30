@@ -1,0 +1,198 @@
+body {
+    background: #5451fa;
+    font-family: 'Belanosima', sans-serif;
+     font-family: 'Inter', sans-serif;
+}
+.container {
+ height:90vh ;
+ width: 70%;
+ background: whitesmoke;
+ border-radius:14px;
+}
+
+.top{
+    display: inline-flex;
+    float: right;
+    margin-bottom:px;
+}
+
+.top > p > i{
+    padding: 4px;
+    margin-right: 20px;
+}
+
+.uil-search {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.uil-bell{
+    font-size: 19px;
+    font-size: 600;
+    color: darkgray;
+}
+
+.profile, .bigPic {
+ width: 80%;
+ height: 150px;
+ margin-left: 50px;
+ margin-top:50px;
+ image-resolution:700px;
+ object-fit:fill;
+ border-radius: 19px;
+}
+
+.Name{
+    width:150px;
+    height: 140px;
+    image-resolution: 1600px;
+    object-fit:cover;
+    margin-top: -70px;
+    border-radius:50%;
+    margin-left: 190px;
+}
+
+.identity .Agent {
+    color:black;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.identity .Agent .uil-check-circle{
+    color:#5451fa;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.identity {
+     margin-top: 140px;
+     width: 70%;
+     margin-left: 80px;
+     
+}
+
+.identity,.desc{
+    text-align: center;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+    font-size: 17px;
+    color: rgb(96, 94, 94);
+    margin-bottom: 20px;
+}
+
+.Numbers{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 70px;
+    cursor: pointer;
+}
+
+.Numbers > div > p{
+    margin-top: -12px;
+    color: rgb(85, 84, 84);
+}
+
+.Numbers > div > h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.Numbers .two h2{
+    color: #5451fa;
+}
+
+button{
+    color:white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 155px;
+    border-radius: 12px;
+    padding: 18px 140px;
+    border: none;
+    cursor: pointer;
+    background: #5451fa;
+    margin-bottom: 20px;
+}
+
+.foot{
+    margin-left: 180px;
+}
+
+@media screen and (max-width:414px) {
+    .container{
+        width: 410px;
+        height: 90vh;
+        margin-left: -7px;
+    }
+   .top{
+    margin-bottom: 10px;
+   }
+   .top > p > i{
+    font-size: 30px;
+   }
+   .profile{
+    margin-top: -10px;
+    margin-bottom: 30px;
+   }
+   .profile .bigPic{
+    width: 110%;
+    margin-top: 8px;
+    margin-left: -24px;
+   }
+   .profile .Name{
+    margin-left: 100px;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    image-resolution: 1600px;
+   }
+   .Numbers{
+    margin-top: 30px;
+    padding-left: 4px;
+
+   }
+   .Numbers > div{
+    padding-left: 1px;
+    margin-right: -10px;
+   }
+   .Numbers > div > h2{
+     font-size: 16px;
+   }
+   button{
+    margin-left: 18px;
+   }
+   .foot{
+    margin-left: 50px;
+   }
+
+}
+
+@media screen and (max-width: 1440px) {
+       .container{
+        width: 900px;
+        margin-left: 50px;
+       }
+       .profile{
+        margin-left: 140px;
+       }
+        .Name{
+        margin-left: 260px;
+       }
+       .identity{
+        margin-left: 160px;
+       }
+       .Numbers{
+        margin-left: 80px;
+       }
+       button{
+        margin-left: 300px;
+       }
+       .foot{
+        margin-left: 310px;
+       }
+    
+}
